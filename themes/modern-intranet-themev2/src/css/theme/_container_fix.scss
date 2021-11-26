@@ -1,0 +1,12 @@
+@media (min-width: 576px) {
+    .container, .container-sm { @include frontend-token(max-width, --container-max-sm, 540px); }
+}
+@media (min-width: 768px) {
+  .container, .container-sm, .container-md { @include frontend-token(max-width, --container-max-md, 720px); }
+}
+@media (min-width: 992px) {
+  .container, .container-sm, .container-md, .container-lg { @include frontend-token(max-width, --container-max-lg, 960px); }
+}
+@media (min-width: 1280px) {
+  .container, .container-sm, .container-md, .container-lg, .container-xl {  @include frontend-token(max-width, --container-max-xl, 1248px); }
+}

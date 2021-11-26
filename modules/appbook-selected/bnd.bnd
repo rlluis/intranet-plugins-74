@@ -1,0 +1,4 @@
+Bundle-Name: appbook-selected
+Bundle-SymbolicName: com.liferay.demo.appbook.selected.web
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.demo.appbook.selected.web.constants

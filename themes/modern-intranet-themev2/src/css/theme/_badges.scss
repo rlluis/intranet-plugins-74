@@ -1,0 +1,169 @@
+/** MI Theme Badges **/
+#wrapper {
+    [class^='mi-badge-'] {
+    }
+
+    .mi-badge {
+        border-radius: 1em;
+
+        &-primary {
+            color: var(--primary, $primary);
+
+            .badge-item {
+                padding: 2px 5px;
+            }
+
+            .badge-item::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: var(--primary, $primary);
+                height: 100%;
+                width: 100%;
+                opacity: 0.1;
+                border-radius: 1em;
+            }
+        }
+
+        &-secondary {
+            color: var(--secondary, $secondary);
+
+            .badge-item {
+                padding: 2px 5px;
+            }
+
+            .badge-item::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: var(--secondary, $secondary);
+                height: 100%;
+                width: 100%;
+                opacity: 0.1;
+                border-radius: 1em;
+            }
+        }
+
+        &-info {
+            color: var(--info, $info);
+
+            .badge-item {
+                padding: 2px 5px;
+            }
+
+            .badge-item::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: var(--info, $info);
+                height: 100%;
+                width: 100%;
+                opacity: 0.1;
+                border-radius: 1em;
+            }
+        }
+
+        &-warning {
+            color: var(--warning, $warning);
+
+            .badge-item {
+                padding: 2px 5px;
+            }
+
+            .badge-item::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: var(--warning, $warning);
+                height: 100%;
+                width: 100%;
+                opacity: 0.1;
+                border-radius: 1em;
+            }
+        }
+
+        &-success {
+            color: var(--success, $success);
+
+            .badge-item {
+                padding: 2px 5px;
+            }
+
+            .badge-item::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: var(--success, $success);
+                height: 100%;
+                width: 100%;
+                opacity: 0.1;
+                border-radius: 1em;
+            }
+        }
+
+        &-danger {
+            color: var(--danger, $danger);
+
+            .badge-item {
+                padding: 2px 5px;
+            }
+
+            .badge-item::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: var(--danger, $danger);
+                height: 100%;
+                width: 100%;
+                opacity: 0.1;
+                border-radius: 1em;
+            }
+        }
+
+        &-dark {
+            color: var(--dark, $dark);
+
+            .badge-item {
+                padding: 2px 5px;
+            }
+
+            .badge-item::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: var(--dark, $dark);
+                height: 100%;
+                width: 100%;
+                opacity: 0.1;
+                border-radius: 1em;
+            }
+        }
+
+        &-light {
+            color: var(--light, $light);
+
+            .badge-item {
+                padding: 2px 5px;
+            }
+
+            .badge-item::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: var(--light, $light);
+                height: 100%;
+                width: 100%;
+                opacity: 0.1;
+                border-radius: 1em;
+            }
+        }
+    }
+} 

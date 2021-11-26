@@ -1,0 +1,12 @@
+Bundle-Name: appbook-api
+Bundle-SymbolicName: com.liferay.training.appbook.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.liferay.training.appbook.exception,\
+	com.liferay.training.appbook.model,\
+	com.liferay.training.appbook.service,\
+	com.liferay.training.appbook.service.persistence,\
+	com.liferay.training.appbook.validator,\
+	com.liferay.training.appbook.constants
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../appbook-service/service.xml

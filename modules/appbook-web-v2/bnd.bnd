@@ -1,0 +1,4 @@
+Bundle-Name: appbook-web-v2
+Bundle-SymbolicName: com.liferay.appbook.web
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.appbook.web.constants

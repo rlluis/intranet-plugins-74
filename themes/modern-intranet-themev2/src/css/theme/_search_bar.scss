@@ -1,0 +1,43 @@
+.mi-search-bar,
+.mi-mob-search-bar {
+    .search-bar-keywords-input {
+        border-radius: 2em;
+        border-color: transparent;
+        font-size: 0.85rem;
+    }
+
+    .input-group .input-group-inset-item-after {
+        border-top-right-radius: 2rem;
+        border-bottom-right-radius: 2rem;
+        border-color: transparent;
+    }
+
+    .btn .inline-item {
+        font-size: 1.2rem;
+        color: var(--gray-500);
+    }
+}
+
+.mi-search-bar {
+    width: 300px;
+    float: right;
+}
+
+.mi-mob-search-bar {
+    margin-left: auto;
+
+    .portlet {
+        margin: 0;
+    }
+}
+
+.layout-content {
+    clear: both;
+}
+
+
+@media #{$mobile_and_tablet_devices} {
+    .mi-search-bar {
+        display: none !important;
+    }
+}

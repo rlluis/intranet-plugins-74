@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import 'responsive';
+@import 'mixins';
+@import 'container_fix';
+@import 'search_bar';
+@import 'vertical_navigation';
+@import 'badges';
+
+#main-content {
+    margin-top: var(--spacer-7) !important;
+}
+
+.portlet-borderless .portlet-content {
+    padding: 0 !important;
+}
+
+.monserrat {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.5px;
+}
+
+.page-editor__disabled-area,
+.page-editor__layout-viewport--size-desktop {
+    padding-right: 0 !important;
+}
+
+.page-editor__layout-viewport--size-tablet,
+.page-editor__layout-viewport--size-landscapeMobile,
+.page-editor__layout-viewport--size-portraitMobile,
+.lfr-simulation-device {
+      z-index: 988 !important;
+}
+
+// Map tiles
+.lfr-map {
+    border: 1px solid transparent;
+    min-height: 200px;
+    width: 100%;
+    
+    .home-button {
+        height: 35px;
+        margin: 5px;
+        width: 45px; 
+    }
+
+    .search-controls {
+        margin-top: 5px;
+        width: 100%; 
+
+        .search-input {
+            width: 100%; 
+        }
+    }
+}
+
+#content {
+    overflow-wrap: anywhere;
+}
+
+@media (min-width: 576px) {
+    .page-editor__layout-viewport--with-sidebar-open {
+        padding-right: 0 !important;
+    }
+    .lfr-map .home-button {
+      height: auto;
+      width: auto; }
+    .lfr-map .search-controls {
+      width: 50%; } 
+}
+
+@media #{$mobile_and_tablet_devices} {
+    #wrapper {
+        display: block !important;
+        flex-direction: initial;
+    }
+
+    #main-content, .content {
+        margin-top: var(--spacer-2) !important;
+    }
+}
